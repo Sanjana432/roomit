@@ -241,6 +241,134 @@ nav .btn {
   border-radius: 8px;
   background-color: #fff;
 }
+.design-styles, .examples {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: var(--background);
+}
+
+.design-styles h2,
+.examples h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.design-styles h2 span,
+.examples h2 span {
+  color: var(--peach-dark);
+}
+
+.subtext {
+  color: var(--text-muted);
+  max-width: 750px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.style-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.style-card {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.style-card:hover {
+  transform: translateY(-4px);
+}
+
+.style-card img {
+  width: 100%;
+  max-width: 100px;
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+}
+
+.style-card p {
+  font-size: 0.95rem;
+  color: var(--primary);
+}
+
+.explore-btn {
+  margin-top: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  background-color: var(--white);
+  border: 2px solid var(--peach-dark);
+  color: var(--peach-dark);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: var(--peach-dark);
+  color: white;
+}
+
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.example-card {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.example-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+}
+
+.example-card h3 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.example-card h3 span {
+  font-size: 0.85rem;
+  color: var(--peach-dark);
+  font-weight: normal;
+  margin-left: 0.3rem;
+}
+
+.example-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
 
 
 
