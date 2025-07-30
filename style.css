@@ -370,5 +370,48 @@ nav .btn {
   margin-bottom: 0.8rem;
 }
 
+.cta-section {
+  background-color: var(--peach);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--primary);
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section h2 span {
+  color: var(--white);
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cta-section .btn.primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.cta-section .btn.outline {
+  border-color: var(--primary);
+  color: var(--primary);
+}
 
 
