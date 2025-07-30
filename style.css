@@ -158,3 +158,78 @@ nav .btn {
   border-radius: 6px;
 }
 
+.steps-section {
+  padding: 4rem 2rem;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.steps-section h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.steps-section h2 span {
+  color: var(--peach-dark);
+}
+
+.steps-section .subtext {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.demo-btn {
+  margin-bottom: 2rem;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.step-card {
+  background-color: var(--background);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.step-card.active {
+  border-color: var(--peach-dark);
+  background-color: #ffe8dc;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 0.6rem;
+}
+
+.step-card p {
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+}
+
+.step-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-card ul li {
+  margin-bottom: 0.4rem;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+
